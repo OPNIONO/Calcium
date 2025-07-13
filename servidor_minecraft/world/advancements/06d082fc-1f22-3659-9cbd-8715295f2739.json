@@ -8,15 +8,21 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-07-13 07:41:46 +0000",
-      "minecraft:frozen_ocean": "2025-07-13 07:29:29 +0000",
       "minecraft:beach": "2025-07-13 07:31:26 +0000",
-      "minecraft:frozen_river": "2025-07-13 07:28:36 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-07-13 10:40:18 +0000",
       "minecraft:forest": "2025-07-13 07:31:32 +0000",
       "minecraft:taiga": "2025-07-13 07:20:43 +0000",
-      "minecraft:deep_frozen_ocean": "2025-07-13 07:30:00 +0000",
       "minecraft:river": "2025-07-13 07:31:25 +0000",
       "minecraft:snowy_plains": "2025-07-13 07:29:15 +0000",
+      "minecraft:stony_shore": "2025-07-13 10:41:11 +0000",
+      "minecraft:lush_caves": "2025-07-13 10:49:54 +0000",
       "minecraft:snowy_taiga": "2025-07-13 07:28:41 +0000",
+      "minecraft:old_growth_birch_forest": "2025-07-13 10:41:33 +0000",
+      "minecraft:frozen_ocean": "2025-07-13 07:29:29 +0000",
+      "minecraft:frozen_river": "2025-07-13 07:28:36 +0000",
+      "minecraft:deep_frozen_ocean": "2025-07-13 07:30:00 +0000",
+      "minecraft:ocean": "2025-07-13 10:42:11 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-07-13 10:40:02 +0000",
       "minecraft:snowy_beach": "2025-07-13 07:29:23 +0000",
       "minecraft:plains": "2025-07-13 07:32:55 +0000"
     },
@@ -436,6 +442,7 @@
       "minecraft:hoglin": "2025-07-13 09:58:42 +0000",
       "minecraft:piglin": "2025-07-13 10:01:21 +0000",
       "minecraft:enderman": "2025-07-13 09:57:49 +0000",
+      "minecraft:silverfish": "2025-07-13 10:44:28 +0000",
       "minecraft:magma_cube": "2025-07-13 09:24:45 +0000",
       "minecraft:spider": "2025-07-13 07:34:30 +0000",
       "minecraft:piglin_brute": "2025-07-13 10:17:31 +0000",
@@ -1697,6 +1704,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-07-13 10:44:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2025-07-13 10:20:04 +0000"
@@ -1775,6 +1788,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-07-13 10:44:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-07-13 10:20:04 +0000"
@@ -1832,6 +1851,12 @@
   "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
     "criteria": {
       "has_cod": "2025-07-13 10:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-07-13 10:44:16 +0000"
     },
     "done": true
   },

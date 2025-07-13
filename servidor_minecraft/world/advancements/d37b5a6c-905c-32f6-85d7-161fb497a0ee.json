@@ -8,15 +8,20 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-07-13 07:41:52 +0000",
-      "minecraft:frozen_ocean": "2025-07-13 07:29:29 +0000",
       "minecraft:beach": "2025-07-13 07:31:26 +0000",
-      "minecraft:frozen_river": "2025-07-13 07:28:37 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-07-13 10:40:18 +0000",
       "minecraft:forest": "2025-07-13 07:31:32 +0000",
       "minecraft:taiga": "2025-07-13 07:25:12 +0000",
-      "minecraft:deep_frozen_ocean": "2025-07-13 07:30:00 +0000",
       "minecraft:river": "2025-07-13 07:31:25 +0000",
       "minecraft:snowy_plains": "2025-07-13 07:29:13 +0000",
+      "minecraft:stony_shore": "2025-07-13 10:41:15 +0000",
       "minecraft:snowy_taiga": "2025-07-13 07:28:39 +0000",
+      "minecraft:old_growth_birch_forest": "2025-07-13 10:41:33 +0000",
+      "minecraft:frozen_ocean": "2025-07-13 07:29:29 +0000",
+      "minecraft:frozen_river": "2025-07-13 07:28:37 +0000",
+      "minecraft:deep_frozen_ocean": "2025-07-13 07:30:00 +0000",
+      "minecraft:ocean": "2025-07-13 10:42:09 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-07-13 10:40:01 +0000",
       "minecraft:snowy_beach": "2025-07-13 07:29:23 +0000",
       "minecraft:plains": "2025-07-13 07:32:55 +0000"
     },
@@ -1371,6 +1376,7 @@
       "minecraft:skeleton": "2025-07-13 09:18:50 +0000",
       "minecraft:piglin": "2025-07-13 10:23:57 +0000",
       "minecraft:enderman": "2025-07-13 09:57:32 +0000",
+      "minecraft:silverfish": "2025-07-13 10:48:53 +0000",
       "minecraft:magma_cube": "2025-07-13 10:10:50 +0000",
       "minecraft:wither_skeleton": "2025-07-13 09:34:54 +0000",
       "minecraft:zombie": "2025-07-13 09:16:57 +0000"
@@ -1615,33 +1621,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2025-07-13 10:21:26 +0000"
+      "has_ancient_debris": "2025-07-13 10:20:33 +0000"
     },
     "done": true
   },
-  "minecraft:nether/distract_piglin": {
+  "minecraft:recipes/misc/netherite_scrap": {
     "criteria": {
-      "distract_piglin": "2025-07-13 10:24:28 +0000"
+      "has_ancient_debris": "2025-07-13 10:20:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/coarse_dirt": {
+  "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
-      "has_gravel": "2025-07-13 10:26:30 +0000"
+      "ancient_debris": "2025-07-13 10:20:33 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2025-07-13 10:21:26 +0000"
     },
     "done": true
   },
@@ -1669,24 +1669,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
-    "criteria": {
-      "has_netherite_upgrade_smithing_template": "2025-07-13 10:21:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2025-07-13 10:20:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_bricks": {
-    "criteria": {
-      "has_nether_brick": "2025-07-13 10:26:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
@@ -1696,6 +1678,42 @@
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-13 10:21:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-13 10:21:26 +0000"
     },
     "done": true
   },
@@ -1717,39 +1735,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/netherite_hoe_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap": {
-    "criteria": {
-      "has_ancient_debris": "2025-07-13 10:20:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-07-13 10:21:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2025-07-13 10:20:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/fast_travel": {
-    "criteria": {
-      "travelled": "2025-07-13 10:29:44 +0000"
     },
     "done": true
   },
@@ -1759,15 +1747,81 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/lodestone": {
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
     "criteria": {
-      "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
+      "has_netherite_upgrade_smithing_template": "2025-07-13 10:21:29 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/netherite_helmet_smithing": {
+  "minecraft:nether/distract_piglin": {
     "criteria": {
-      "has_netherite_ingot": "2025-07-13 10:21:17 +0000"
+      "distract_piglin": "2025-07-13 10:24:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2025-07-13 10:26:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-07-13 10:26:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2025-07-13 10:29:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-07-13 10:45:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-07-13 10:35:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-07-13 10:45:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-07-13 10:44:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-07-13 10:45:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-07-13 10:45:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-07-13 10:35:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-07-13 10:35:31 +0000"
     },
     "done": true
   },
