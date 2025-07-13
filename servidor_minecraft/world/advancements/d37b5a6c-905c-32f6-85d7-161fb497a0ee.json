@@ -312,6 +312,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-07-13 10:01:38 +0000",
       "apple": "2025-07-13 07:39:30 +0000",
       "bread": "2025-07-13 07:35:49 +0000",
       "cookie": "2025-07-13 08:15:25 +0000",
@@ -1368,6 +1369,8 @@
     "criteria": {
       "minecraft:blaze": "2025-07-13 09:35:40 +0000",
       "minecraft:skeleton": "2025-07-13 09:18:50 +0000",
+      "minecraft:enderman": "2025-07-13 09:57:32 +0000",
+      "minecraft:magma_cube": "2025-07-13 10:10:50 +0000",
       "minecraft:wither_skeleton": "2025-07-13 09:34:54 +0000",
       "minecraft:zombie": "2025-07-13 09:16:57 +0000"
     },
@@ -1453,10 +1456,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-07-13 09:58:19 +0000",
       "minecraft:soul_sand_valley": "2025-07-13 09:36:54 +0000",
-      "minecraft:basalt_deltas": "2025-07-13 09:23:35 +0000"
+      "minecraft:nether_wastes": "2025-07-13 09:56:58 +0000",
+      "minecraft:basalt_deltas": "2025-07-13 09:23:35 +0000",
+      "minecraft:warped_forest": "2025-07-13 10:03:50 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
@@ -1572,6 +1578,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-07-13 09:34:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2025-07-13 09:36:21 +0000"
@@ -1581,12 +1593,6 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2025-07-13 09:36:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "fortress": "2025-07-13 09:34:30 +0000"
     },
     "done": true
   },
