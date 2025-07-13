@@ -185,3 +185,42 @@
 [09:30:59] [Server thread/INFO]: [ExpertDead: Set own game mode to Survival Mode]
 [09:31:13] [Server thread/INFO]: suzysheep_26[/127.206.254.196:48287] logged in with entity id 44089 at (-215.68385346264074, 26.9847144919596, -52.7616252402105)
 [09:31:13] [Server thread/INFO]: suzysheep_26 joined the game
+[09:31:17] [Server thread/INFO]: [ExpertDead: Teleported suzysheep_26 to ExpertDead]
+[09:31:22] [Server thread/INFO]: suzysheep_26 lost connection: Disconnected
+[09:31:22] [Server thread/INFO]: suzysheep_26 left the game
+[09:31:35] [Server thread/INFO]: suzysheep_26[/127.206.254.196:51055] logged in with entity id 44118 at (-221.55699870333012, 33.0, -51.15719806731932)
+[09:31:35] [Server thread/INFO]: suzysheep_26 joined the game
+[09:31:37] [Server thread/INFO]: [ExpertDead: Teleported suzysheep_26 to ExpertDead]
+[09:31:54] [Server thread/INFO]: [Not Secure] <suzysheep_26> DONT PUT ME NEAR LAVA
+[09:34:22] [Server thread/INFO]: ExpertDead has made the advancement [A Terrible Fortress]
+[09:34:30] [Server thread/INFO]: suzysheep_26 has made the advancement [A Terrible Fortress]
+[09:35:23] [Server thread/INFO]: ExpertDead has made the advancement [Into Fire]
+[09:35:48] [Server thread/INFO]: ExpertDead has made the advancement [Not Today, Thank You]
+[09:36:06] [Server thread/INFO]: Jgjgihihg[/127.87.175.254:35303] logged in with entity id 44835 at (-7.5, 71.0, -1.5)
+[09:36:06] [Server thread/INFO]: Jgjgihihg joined the game
+[09:36:15] [Server thread/INFO]: [Not Secure] <ExpertDead> yo?
+[09:36:21] [Server thread/INFO]: suzysheep_26 has made the advancement [Into Fire]
+[09:36:23] [Server thread/INFO]: [ExpertDead: Banned Jgjgihihg: Banned by an operator.]
+[09:36:23] [Server thread/INFO]: Jgjgihihg lost connection: You are banned from this server
+[09:36:23] [Server thread/INFO]: Jgjgihihg left the game
+[09:36:29] [Server thread/INFO]: [ExpertDead: Whitelist is now turned on]
+[09:36:40] [Server thread/INFO]: Disconnecting Jgjgihihg (/127.87.175.254:46153): You are banned from this server.
+Reason: Banned by an operator.
+[09:36:40] [Server thread/INFO]: Jgjgihihg (/127.87.175.254:46153) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[09:36:40] [Server thread/WARN]: handleDisconnection() called twice
+[09:36:51] [Server thread/INFO]: [Not Secure] <suzysheep_26> NAH
+[09:37:08] [Server thread/INFO]: [Not Secure] <suzysheep_26> I GOT ONE
+[09:37:19] [Server thread/WARN]: suzysheep_26 was kicked for floating too long!
+[09:37:19] [Server thread/INFO]: suzysheep_26 lost connection: Flying is not enabled on this server
+[09:37:19] [Server thread/INFO]: suzysheep_26 left the game
+[09:37:35] [Server thread/INFO]: ExpertDead lost connection: Timed out
+[09:37:35] [Server thread/INFO]: ExpertDead left the game
+[09:37:49] [Server thread/INFO]: Disconnecting Jgjgihihg (/127.87.175.254:41659): You are banned from this server.
+Reason: Banned by an operator.
+[09:37:49] [Server thread/INFO]: Jgjgihihg (/127.87.175.254:41659) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[09:37:49] [Server thread/WARN]: handleDisconnection() called twice
+[09:38:07] [Server thread/INFO]: Disconnecting Jgjgihihg55 (/127.87.175.254:53149): You are not white-listed on this server!
+[09:38:07] [Server thread/INFO]: Jgjgihihg55 (/127.87.175.254:53149) lost connection: You are not white-listed on this server!
+[09:38:07] [Server thread/WARN]: handleDisconnection() called twice
